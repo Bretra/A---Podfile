@@ -77,5 +77,9 @@ target 'appOfShrimp' do
     pod 'FLAnimatedImage'
     #腾讯开源的UIkit
     pod 'QMUIKit'
-
+#warning
+    #没有使用pod的第三方
+    #UITableView+CornerRadius
+    #JXCategory
+    #LSNavigationController
 end
