@@ -3,6 +3,8 @@ platform :ios, ‘9.0’
 use_frameworks!
 
 target 'appOfShrimp' do
+    #iOS网络诊断SDK
+    pod 'PhoneNetSDK'
     #网络请求
     pod 'AFNetworking'
     pod 'YTKNetwork'
