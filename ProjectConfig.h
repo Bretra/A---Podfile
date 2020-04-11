@@ -12,6 +12,8 @@
 #define KSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define KSCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 
+#define KWindow [UIApplication sharedApplication].keyWindow
+
 #define IPHONE_X \
 ({BOOL isPhoneX = NO;\
 if (@available(iOS 11.0, *)) {\
