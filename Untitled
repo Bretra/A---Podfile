@@ -1,0 +1,87 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘9.0’
+use_frameworks!
+
+target 'appOfShrimp' do
+    #iOS网络诊断SDK
+    pod 'PhoneNetSDK'
+    #网络请求
+    pod 'AFNetworking'
+    pod 'YTKNetwork'
+    #长连接
+    pod 'CocoaAsyncSocket' 
+    #Tabbar
+    pod 'CYLTabBarController'
+    #自动布局
+    pod 'Masonry'
+    #加载提示
+    pod 'MBProgressHUD'
+    pod 'SVProgressHUD'
+    #刷新
+    pod 'MJRefresh'
+    #分类page
+    pod 'JXCategoryView'
+    #分类，支持公用一个头，上下左右滑动
+    pod 'JXPagingView/Pager'
+    #轮播图
+    pod 'TYCyclePagerView'
+    #Json<--->Model
+    pod 'MJExtension'
+    pod 'YYModel'
+    #弹框
+    pod 'LEEAlert'
+    pod 'zhPopupController'
+    #相机相册
+    pod 'TZImagePickerController'
+    #image处理
+    pod 'GPUImage'
+    #frame自动布局
+    pod 'SDAutoLayout'
+    #扩展
+    pod 'JKCategories'
+    pod 'PKCategories'
+    #展位图
+    pod 'LYEmptyView'
+    pod 'DZNEmptyDataSet'
+    #属性字符串
+    pod 'SJAttributesFactory'
+    #网络图片请求
+    pod 'SDWebImage'
+    #标签
+    pod 'TTGTagCollectionView'
+    #视图圆角，阴影等
+    pod 'HJViewStyle'
+    #设备信息
+    pod "DDDeviceInfo"
+    #按钮title image 位置调整
+    pod 'UIButton-LXLayout'
+    #小黑框
+    pod 'Toast'
+    #滑动消失视图
+    pod 'HWPanModal'
+    #uitextview展位图
+    pod 'UITextView+Placeholder'
+    #uicollectionview
+    pod 'IGListKit'
+    #圆角tableview的section
+    pod 'TORoundedTableView'
+    pod 'UITableView-BMDynamicLayout'
+    #navigationbar
+    pod 'GKNavigationBar'
+    #navigationitem间距
+    pod 'UINavigationItem+Margin'
+    #键盘处理
+    pod 'IQKeyboardManager'
+    #缓存
+    pod 'YYCache'
+    pod 'FMDB'
+    #GIF图
+    pod 'FLAnimatedImage'
+    #腾讯开源的UIkit
+    pod 'QMUIKit'
+#warning
+    #没有使用pod的第三方
+    #UITableView+CornerRadius
+    #JXCategory
+    #LSNavigationController
+end
