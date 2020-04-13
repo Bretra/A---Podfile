@@ -79,6 +79,9 @@ target 'appOfShrimp' do
     pod 'FLAnimatedImage'
     #腾讯开源的UIkit
     pod 'QMUIKit'
+    #时间选择器
+    pod 'PGDatePicker'
+    
 #warning
     #没有使用pod的第三方
     #UITableView+CornerRadius
