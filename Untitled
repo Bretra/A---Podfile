@@ -82,6 +82,17 @@ target 'appOfShrimp' do
     #时间选择器
     pod 'PGDatePicker'
     
+    pod 'KVOController'
+    pod 'SDAutoLayout'
+    pod 'YYModel'
+    pod 'JKCategories'
+    pod 'SJAttributesFactory'
+    pod 'BRPickerView'
+    pod 'XLForm'
+    pod 'JZLProgressHUD'
+    pod 'DateTools'
+  
+
 #warning
     #没有使用pod的第三方
     #UITableView+CornerRadius
